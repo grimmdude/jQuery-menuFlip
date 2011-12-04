@@ -12,4 +12,11 @@ Create an HTML list like this:
 
 Call the plugin:
     $('#menuFlip').menuFlip();
+
+== Options
+These are the default options, however you can pass a map of the keys with different values into the plugin to override them.
+
+    {'li_height' : '20px',
+    'flip_speed' : 150,
+    'flipped_class' : 'flipped_item'}
         
