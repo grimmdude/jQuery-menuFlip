@@ -39,7 +39,7 @@
 
 		// When list item is hovered slide up to expose the flipped link
 		this.find('li').hover(function() {
-		var negative_height = '-' + settings.li_height;
+			var negative_height = '-' + settings.li_height;
 		
 			$(this).find('a:first').animate({
 				marginTop: negative_height
