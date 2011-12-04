@@ -1,0 +1,176 @@
+/*RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*START EDITING HERE*/
+
+body {			
+	background-color:#F8F7F3;
+	background-image:url(../images/diagonal_stripe_gray.png);
+	font-family: 'trebuchet MS'; 
+	font-size: .9em;
+}
+
+#wrapper {
+	width:900px;
+	border:1px solid #ccc;
+	margin-left:auto;
+	margin-right:auto;
+	padding:8px 8px 8px 8px;
+	background-color:#ffffff;
+	position:relative;
+	overflow:auto;
+}
+
+div#logo {
+	height:80px;
+	width:100%;
+	/*background-color:#222222;*/
+	background-color:#ffffff;
+	font-size:2em;
+	line-height:80px;
+}
+
+#logo img {
+	margin:10px;
+}
+
+h2 {
+	font-family:helvetica;
+	font-size:1.3em;
+	font-weight:lighter;
+	margin-bottom:10px;
+	
+}
+p {
+	margin-bottom:12px;
+	line-height:18px;
+	clear:both;
+}
+label { width: 10em;  }
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+.submit { margin-left: 12em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+
+hr {
+	margin-bottom:20px;
+	clear:both;
+}
+
+table td, table th {
+	padding:5px;
+	text-align:center;
+}
+
+table td.product_name, table td.product_desc {
+	text-align:left;
+}
+
+#product_selectors {
+	margin-left:30px;
+}
+
+table#fresh_cart, table#purchased_products {
+	width:100%;
+	margin-bottom:15px;
+}
+
+table#fresh_cart th, table#purchased_products th {
+	text-align:center;
+}
+
+tr#cart_header th, tr#cart_header th {
+	background-color:#000000;
+	color:#ffffff;
+}
+
+table#order_summary {
+	float:right;
+	margin:20px 5px 20px 0px;
+	border:1px solid #ccc;
+}
+
+table#order_summary td {
+	padding:5px;
+}
+
+.eyesystem_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.eyesystem_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.eyesystem_button:active {
+	position:relative;
+	top:1px;
+}
