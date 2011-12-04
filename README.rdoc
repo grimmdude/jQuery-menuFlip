@@ -1,0 +1,15 @@
+= jQuery menuFlip
+Create flipping menu links with this jQuery plugin.
+
+== Usage
+Create an HTML list like this:
+    <ul id="menuFlip">
+        <li><a href="link1.html">Link 1</a></li>
+        <li><a href="link1.html">Link 1</a></li>
+        <li><a href="link1.html">Link 1</a></li>
+        <li><a href="link1.html">Link 1</a></li>
+    </ul>
+
+Call the plugin:
+    $('#menuFlip').menuFlip();
+        
