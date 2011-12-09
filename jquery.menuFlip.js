@@ -10,7 +10,6 @@
 
 (function( $ ) {
 	$.fn.menuFlip = function(options) {
-  		//get the height of the list items
 		
 		var settings = $.extend({
 			'li_height' : '20px',
