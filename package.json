@@ -6,16 +6,7 @@
         "name": "Garrett Grimm",
         "url": "http://www.grimmdude.com"
     },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "MIT-LICENSE.txt"
-        },
-        {
-            "type": "GPL",
-            "url": "GPL-LICENSE.txt"
-        }
-    ],
+    "licenses": [],
     "dependencies": {
         "jquery": "1"
     },
