@@ -1,0 +1,46 @@
+{
+    "name": "menuFlip",
+    "title": "jQuery menuFlip",
+    "description": "Create flipping navigation and menu links on hover with this small jQuery plugin.",
+    "keywords": [
+        "navigation",
+        "menu",
+        "links",
+        "animation",
+		"flip"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Garrett Grimm",
+        "url": "http://www.grimmdude.com"
+    },
+    "licenses": [
+		{
+			"type": "GPL-3.0",
+			"url": "http://opensource.org/licenses/GPL-3.0"
+		}
+	],
+    "dependencies": {
+        "jquery": ">=1.6"
+    },
+    "homepage": "http://www.grimmdude.com/jquery-menuflip/",
+	"demo": "http://www.grimmdude.com/jquery-menuflip/",
+	"download": "http://www.grimmdude.com/jquery-menuflip/",
+	"docs": "http://www.grimmdude.com/jquery-menuflip/",
+	"bugs": "https://github.com/grimmdude/jQuery-menuFlip/issues",
+    "contributors": [
+        {
+            "name": "Garrett Grimm",
+            "url": "http://www.grimmdude.com"
+        }
+    ],
+    "files": [
+        "jquery.menuFlip.js"
+    ],
+  	"maintainers": [
+    	{
+      		"name": "Garrett Grimm",
+      		"url": "grimmdude@gmail.com"
+    	}
+  	]
+}
