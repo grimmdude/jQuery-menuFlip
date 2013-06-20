@@ -18,7 +18,8 @@
 		}, options);
 
 		// Set required CSS
-		this.find('li').css({
+		this.find('li')
+		.css({
 			'overflow' : 'hidden',
 			'height' : settings.li_height
 		})
