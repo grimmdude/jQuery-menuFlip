@@ -1,5 +1,5 @@
 = jQuery menuFlip
-Create flipping menu links with this jQuery plugin.
+Create flipping menu links with this extremely lightweight jQuery plugin.
 
 == Usage
 Create an HTML list like this:
