@@ -12,8 +12,8 @@
 	$.fn.menuFlip = function(options) {
 		
 		var settings = $.extend({
-			'li_height' : '20px',
-			'flip_speed' : 150,
+			'li_height'		: '20px',
+			'flip_speed' 	: 150,
 			'flipped_class' : 'flipped_item'
 		}, options);
 
@@ -21,23 +21,9 @@
 		this.find('li').css({
 			'overflow' : 'hidden',
 			'height' : settings.li_height
-		});
-		
-		this.find('li a').css({
-			'display' : 'block'
-		});
-		
-		// For each list item set the child 'a' line height to match the li height and duplicate
-		this.find('li a').each(function(){
-			$(this)
-				.css('line-height', settings.li_height)
-				.clone()
-				.appendTo($(this).parent())
-				.addClass(settings.flipped_class);
-		});
-
+		})
 		// When list item is hovered slide up to expose the flipped link
-		this.find('li').hover(function() {
+		.hover(function() {
 			var negative_height = '-' + settings.li_height;
 		
 			$(this).find('a:first').animate({
@@ -48,6 +34,18 @@
 			$(this).find('a:first').animate({
 				marginTop: '0px'
 			}, settings.flip_speed);
-		});
+		})
+		.find('a')
+			.css({
+				'display' 		: 'block',
+				'line-height'	: settings.li_height
+			})
+			// For each list item set the child 'a' line height to match the li height and duplicate
+			.each(function(){
+				$(this)
+					.clone()
+					.appendTo($(this).parent())
+					.addClass(settings.flipped_class);
+			});
   	};
 })( jQuery );
