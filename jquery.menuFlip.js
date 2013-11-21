@@ -12,11 +12,11 @@
 	$.fn.menuFlip = function (options) {
 		
 		var settings = $.extend({
-			'li_height'		: '20px',
-			'flip_speed' 	: 150,
+			'li_height'     : '20px',
+			'flip_speed'    : 150,
 			'flipped_class' : 'flipped_item',
-			'mouseover'		: function () {},
-			'mouseout'		: function () {}
+			'mouseover'     : function () {},
+			'mouseout'      : function () {}
 		}, options);
 
 		// Set required CSS
