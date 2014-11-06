@@ -1,0 +1,28 @@
+{
+  "name": "jQuery-menuFlip",
+  "version": "1.2.0",
+  "homepage": "http://grimmdude.com/2011/08/11/jquery-menu-flip",
+  "authors": [
+    "Garrett Grimm"
+  ],
+  "description": "Create flipping menu links with this extremely lightweight jQuery plugin.",
+  "main": "jquery.menuFlip.js",
+  "keywords": [
+    "navigation",
+    "menu",
+    "links",
+    "animation",
+    "flip"
+  ],
+  "dependencies": {
+    "jquery": ">=1.6"
+  },
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
