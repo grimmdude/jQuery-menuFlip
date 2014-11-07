@@ -16,18 +16,11 @@ HTML:
 
 JS:
 ```js
-$('#menuFlip').menuFlip({});
-```
-
-The flipped links have a class of 'flipped_item' by default so can style as you like.
-
-##Options
-These are the default options, however you can pass a map of the keys with different values into the plugin to override them.
-```js
-{
+$('#menuFlip').menuFlip({
     'li_height' : '20px', 
     'flip_speed' : 150, 
     'flipped_class' : 'flipped_item', 
     'mouseover' : function() {}, 
     'mouseout' : function() {}
-}
+});
+```
