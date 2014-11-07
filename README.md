@@ -17,10 +17,10 @@ HTML:
 JS:
 ```js
 $('#menuFlip').menuFlip({
-    'li_height'     : '20px', 
-    'flip_speed'    : 150, 
-    'flipped_class' : 'flipped_item', 
-    'mouseover'     : function() {}, 
-    'mouseout'      : function() {}
+    li_height       : '20px', 
+    flip_speed      : 150, 
+    flipped_class   : 'flipped_item', 
+    mouseover       : function() {}, 
+    mouseout        : function() {}
 });
 ```
