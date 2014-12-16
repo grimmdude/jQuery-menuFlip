@@ -12,18 +12,18 @@
 	$.fn.menuFlip = function (options) {
 		
 		var settings = $.extend({
-			'li_height'     : '20px',
-			'flip_speed'    : 150,
-			'flipped_class' : 'flipped_item',
-			'mouseover'     : function () {},
-			'mouseout'      : function () {}
+			li_height      : '20px',
+			flip_speed     : 150,
+			flipped_class  : 'flipped_item',
+			mouseover      : function () {},
+			mouseout       : function () {}
 		}, options);
 
 		// Set required CSS
 		this.find('li')
 		.css({
-			'overflow' : 'hidden',
-			'height' : settings.li_height
+			overflow : 'hidden',
+			height : settings.li_height
 		})
 		// When list item is hovered slide up to expose the flipped link
 		.hover(function () {
@@ -50,13 +50,15 @@
 		})
 		.find('a')
 			.css({
-				'display' 		: 'block',
-				'line-height'	: settings.li_height
+				'display'  		: 'block',
+				'line-height' 	: settings.li_height
 			})
 			// For each list item set the child 'a' line height to match the li height and duplicate
 			.each(function (){
+				var flipped_text = jQuery(this).data('flippedText') ? jQuery(this).data('flippedText') : jQuery(this).text();
 				$(this)
 					.clone()
+					.text(flipped_text)
 					.appendTo($(this).parent())
 					.addClass(settings.flipped_class);
 			});

@@ -9,10 +9,10 @@
         "animation",
 		"flip"
     ],
-    "version": "1.2.0",
+    "version": "1.3.0",
     "author": {
         "name": "Garrett Grimm",
-        "url": "http://www.grimmdude.com"
+        "url": "http://grimmdude.com"
     },
     "licenses": [
 		{
@@ -23,15 +23,15 @@
     "dependencies": {
         "jquery": ">=1.6"
     },
-    "homepage": "http://www.grimmdude.com/jquery-menuflip/",
-	"demo": "http://www.grimmdude.com/jquery-menuflip/",
+    "homepage": "http://grimmdude.com/jquery-menuflip/",
+	"demo": "http://grimmdude.com/jquery-menuflip/",
 	"download": "https://github.com/grimmdude/jQuery-menuFlip/archive/master.zip",
-	"docs": "http://www.grimmdude.com/jquery-menuflip/",
+	"docs": "http://grimmdude.com/jquery-menuflip/",
 	"bugs": "https://github.com/grimmdude/jQuery-menuFlip/issues",
     "contributors": [
         {
             "name": "Garrett Grimm",
-            "url": "http://www.grimmdude.com"
+            "url": "http://grimmdude.com"
         }
     ],
     "files": [
@@ -40,7 +40,7 @@
   	"maintainers": [
     	{
       		"name": "Garrett Grimm",
-      		"url": "http://www.grimmdude.com"
+      		"url": "http://grimmdude.com"
     	}
   	]
 }
